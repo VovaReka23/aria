@@ -1150,9 +1150,8 @@ $animation-duration: 1s !default;
     font-size: 35px;
   }
   .banner-content {
-
     align-items: center;
-    height: 60vh;
+    height: 90vh;
   }
   .banner__aria .title__aria {
     text-align: center;
@@ -1250,6 +1249,10 @@ border-radius: 15px;
 @media only screen and (max-width: 767px) {
   .about-us--img img {
     width: calc(100% - 25px);
+  }
+  .banner-content {
+    align-items: center;
+    height: 70vh;
   }
   .our-product__aria .btn {
     margin-top: 25px;

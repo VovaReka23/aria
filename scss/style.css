@@ -1343,7 +1343,7 @@ footer .social-networks a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 60vh;
+    height: 90vh;
   }
   .banner__aria .title__aria {
     text-align: center;
@@ -1440,6 +1440,12 @@ footer .social-networks a {
 @media only screen and (max-width: 767px) {
   .about-us--img img {
     width: calc(100% - 25px);
+  }
+  .banner-content {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 70vh;
   }
   .our-product__aria .btn {
     margin-top: 25px;

@@ -196,6 +196,10 @@ section {
   z-index: 2;
 }
 
+.header-aria .logo img {
+  width: 100%;
+}
+
 .header-aria .social-networks a {
   padding: 0 10px;
   color: var(--c-white);
@@ -1216,6 +1220,7 @@ footer .social-networks a {
   }
   .header-aria {
     padding: 15px 0;
+    background: rgba(41, 37, 37, 0.99);
   }
   .header-aria .logo {
     -webkit-box-ordinal-group: 4;

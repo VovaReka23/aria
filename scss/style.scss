@@ -163,7 +163,11 @@ display: none;
     left: 0;
     width: 100%;
     z-index: 2;
-
+    .logo {
+      img {
+        width: 100%;
+      }
+    }
     .social-networks a {
       padding: 0 10px;
       color: var(--c-white);
@@ -1031,6 +1035,7 @@ $animation-duration: 1s !default;
 
   .header-aria {
     padding: 15px 0;
+    background: rgba(41, 37, 37, 0.99);
     .logo {
       order: 3;
       margin-top: 20px;
